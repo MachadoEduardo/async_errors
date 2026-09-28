@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Exercício 10: Watch",
+      "program": "${workspaceFolder}/dist/exercicio10.js",
+      "preLaunchTask": "npm: build"
+    }
+  ]
+}

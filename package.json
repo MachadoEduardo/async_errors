@@ -1,0 +1,22 @@
+{
+  "name": "async-errors-exercicios",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "ex7": "node dist/exercicio7.js",
+    "server": "node dist/server.js",
+    "ex10": "node dist/exercicio10.js",
+    "ex11:antes": "node --expose-gc dist/exercicio11.js antes",
+    "ex11:sem-timer": "node --expose-gc dist/exercicio11.js sem-timer",
+    "ex11:depois": "node --expose-gc dist/exercicio11.js depois",
+    "test": "node --test dist/verificar.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.13.0",
+    "typescript": "^5.8.0"
+  }
+}
